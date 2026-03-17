@@ -1,0 +1,57 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+
+header {
+  background: #ff4d6d;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px;
+  color: #333;
+}
+
+.btn {
+  background: #ff4d6d;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.form input, .form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
